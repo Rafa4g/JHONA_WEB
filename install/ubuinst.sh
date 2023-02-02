@@ -192,7 +192,7 @@ function install_continue {
 function install_continue2 {
 cd /bin || exit
 rm pweb > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Rafa4g/JHONA_WEB/main/install/pweb > /dev/null 2>&1
+wget https://github.com/Rafa4g/JHONA_WEB/raw/main/install/pweb > /dev/null 2>&1
 chmod 777 pweb > /dev/null 2>&1
 clear
 [[ ! -d /bin/ppweb ]] && mkdir /bin/ppweb
