@@ -1147,6 +1147,7 @@ case "$x" in
    11 | 011)
    painel_whatsapp
    exit;
+   ;;
    12 | 012)
    botpag
    exit;
